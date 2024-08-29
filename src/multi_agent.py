@@ -56,7 +56,7 @@ generated_func = engineer.completion("python function to test prime number")
 display(Markdown("```python\n" + generated_func + "\n```"))
 
 generated_test = qa.completion(
-    "Write a python unit test that test the following function: \n " + generated_func
+    "Write a python unit test that tests the following function: \n " + generated_func
 )
 
 display(Markdown("```python\n" + generated_test + "\n```"))
