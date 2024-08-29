@@ -6,5 +6,6 @@ https://github.com/AgentOps-AI/agentops/blob/main/examples/openai-gpt.ipynb
 
 # How to run this application
 
-- SHIFT + CMD + P
+- SHIFT + CMD + P (launch devcontainer)
 - pip install -r requirements.txt
+- python src/main.py 
